@@ -1,0 +1,38 @@
+{
+  "name": "protractor-automation",
+  "version": "1.0.0",
+  "description": "Introduction to the protractor",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor conf.js",
+    "webdriver-update": "webdriver-manager update",
+    "smoke": "protractor conf.js --grep @smoke"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TJNakashima/protractor-automation.git"
+  },
+  "keywords": [
+    "protractor",
+    "qa",
+    "automation",
+    "javascript",
+    "js",
+    "selenium",
+    "jasmine"
+  ],
+  "author": "Taynara Jacon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TJNakashima/protractor-automation/issues"
+  },
+  "homepage": "https://github.com/TJNakashima/protractor-automation#readme",
+  "devDependencies": {
+    "jasmine": "^3.4.0",
+    "jasmine-allure-reporter": "^1.0.2",
+    "jasmine-spec-reporter": "^4.2.1",
+    "mongoose": "^5.5.11",
+    "protractor": "^5.4.2",
+    "protractor-jasmine2-html-reporter": "0.0.7"
+  }
+}
